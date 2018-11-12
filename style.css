@@ -20,7 +20,19 @@ body
 	overflow:hidden;
 	background-image: url("img/anders-jilden-295809-unsplash.jpg");
 	background-size: cover;
-
+}
+#topBar
+{
+	background:#ebf1f5;
+	position: absolute;
+	top:50px;
+	left:50px;
+	width:1820px;
+	height: 60px;
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+	line-height: 60px;
 }
 
 @keyframes fadeIn
