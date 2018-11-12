@@ -7,8 +7,7 @@ body
 	text-align: center;
 	text-transform: uppercase;
 	font-family: Lato, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-	font-size: 30px;
-	font-style: italic;
+	font-size: 28px;
 }
 #streamCanvas
 {
@@ -21,18 +20,66 @@ body
 	background-image: url("img/anders-jilden-295809-unsplash.jpg");
 	background-size: cover;
 }
-#topBar
+#topShadow
 {
-	background:#ebf1f5;
 	position: absolute;
 	top:50px;
 	left:50px;
 	width:1820px;
 	height: 60px;
+	box-shadow: 0px 5px 15px 5px #00000088;
+}
+#topBar
+{
+	background:#ebf1f5;
+	position: absolute;
+	top:50px;
+	left:110px;
+	width:1680px;
+	height: 60px;
+	padding-left:20px;
 	display:flex;
 	flex-direction: row;
 	justify-content: space-between;
 	line-height: 60px;
+}
+.topTwitchLogo
+{
+	position: absolute;
+	top:50px;
+	left:50px;
+	height: 60px;
+	width:60px;
+	background:#6441A4;
+	background-image: url("img/twitch-logo.png");
+	background-position:center;
+	background-repeat: no-repeat;
+	
+}
+.socialMediaTop
+{
+	margin-right:5px;
+}
+.topClock
+{
+	margin-left: 15px;
+	padding: 0 20px;
+	height: 60px;
+	color:#ebf1f5;
+	background:#1359ff;
+	display: inline-block;
+}
+.topProfilePicture
+{
+	position: absolute;
+	top:50px;
+	right:50px;
+	height: 60px;
+	width:60px;
+	background:black;
+	overflow:hidden;
+	background-image: url("img/profilepic.jpg");
+	background-size: cover;
 }
 
 @keyframes fadeIn
