@@ -142,6 +142,24 @@ body
 	animation-delay: 1.25s;
 	animation-fill-mode: backwards;
 }
+#osGifOffline
+{
+	position: absolute;
+	left:200px;
+	top:250px;
+	z-index: 10000;
+	animation-delay: 1.25s;
+	animation-fill-mode: backwards;
+}
+#osMonthlyOffline
+{
+	position: absolute;
+	right:125px;
+	top:350px;
+	z-index: 1000;
+	animation-delay: 1s;
+	animation-fill-mode: backwards;
+}
 
 @keyframes fadeIn
 {
