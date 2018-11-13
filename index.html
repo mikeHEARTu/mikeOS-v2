@@ -10,19 +10,32 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-	<div id="streamCanvas">
-		<div id="topShadow"></div>
+<script>
+	function startTime() {
+		var today = new Date();
+		var h = today.getHours();
+		var m = today.getMinutes();
+		m = checkTime(m);
+		document.getElementById('timeHours').innerHTML = h;
+		document.getElementById('timeMinutes').innerHTML = m;
+		var t = setTimeout(startTime, 500);
+	}
+	function checkTime(i) {
+		if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+		return i;
+	}
+</script>
 
-		<div class="topTwitchLogo"></div>
+<body onload="startTime()">
+	<div id="streamCanvas">
 		<div id="topBar">
 			<div class="topBarLeft">
-				
+				<div class="topTwitchLogo"></div>
 				twitch.tv/aznmike123
 			</div>
 
 			<div class="topBarMiddle">
-				mikeOS v2
+				mikeOS
 			</div>
 
 			<div class="topBarRight">
@@ -31,16 +44,31 @@
 				<img src="img/instagram-logo.png" alt="Instagram logo" class="socialMediaTop">
 				<img src="img/twitter-logo.png" alt="Twitter logo" class="socialMediaTop">
 				@mikeheartu
-				<div class="topClock">12:34</div>
+				<div class="topClock">
+						<span id="timeHours"></span>
+						<span class="clockTicker">:</span>
+						<span id="timeMinutes"></span>
+				</div>
+				<img src="img/profilepic.jpg" alt="It's me!" width="60" height="60" class="topProfilePicture">
 			</div>
 		</div>
-		<div class="topProfilePicture"></div>
 
 		<div class="osWindow osWindowFocus" id="osNowPlaying">
 			<div class="osWindowTop">now-playing.mp4</div>
 			<video width="1280" height="720" autoplay muted loop id="nowPlayingVideo">
-				<source src="img/okkkk.webm" type="video/webm">
+				<source src="img/tetris-effect-gameplay.mp4" type="video/mp4">
+				<!-- <source src="img/okkkk.webm" type="video/webm"> -->
 			</video>
+		</div>
+
+		<div class="osWindow" id="osMonthlyMain">
+			<div class="osWindowTop">humble-monthly.png</div>
+			<img src="img/humble-monthly.png" alt="Humble Monthly promo artwork" width="600" class="osPNG">
+		</div>
+
+		<div class="osWindow" id="osVGBCMain">
+			<div class="osWindowTop">book-club.png</div>
+			<img src="img/vgbc-artwork.png" alt="Video Game Book Club artwork" width="300" class="osPNG">
 		</div>
 	</div>
 </body>
