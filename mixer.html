@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Live breakscreen for Twitch.tv/aznmike123">
+	<meta name="keywords" content="twitch, overlay">
+	<meta name="author" content="Michael Macasiano">
+	<title>Video games are awful</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<script>
+	function startTime() {
+		var today = new Date();
+		var h = today.getHours();
+		var m = today.getMinutes();
+		m = checkTime(m);
+		document.getElementById('timeHours').innerHTML = h;
+		document.getElementById('timeMinutes').innerHTML = m;
+		var t = setTimeout(startTime, 500);
+	}
+	function checkTime(i) {
+		if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+		return i;
+	}
+</script>
+
+<body onload="startTime()">
+	<div id="streamCanvas">
+		<div id="topBar">
+			<div class="topBarLeft">
+				<div class="topMixerLogo"></div>
+				mixer.com/mikeheartu
+			</div>
+
+			<div class="topBarMiddle">
+				mikeOS
+			</div>
+
+			<div class="topBarRight">
+				<img src="img/github-logo.png" alt="GitHub logo" class="socialMediaTop">
+				<img src="img/dribbble-logo.png" alt="Dribbble logo" class="socialMediaTop">
+				<img src="img/instagram-logo.png" alt="Instagram logo" class="socialMediaTop">
+				<img src="img/twitter-logo.png" alt="Twitter logo" class="socialMediaTop">
+				@mikeheartu
+				<div class="topClock">
+						<span id="timeHours"></span>
+						<span class="clockTicker">:</span>
+						<span id="timeMinutes"></span>
+				</div>
+				<img src="img/profilepic.jpg" alt="It's me!" width="60" height="60" class="topProfilePicture">
+			</div>
+		</div>
+
+		<div class="osWindow osWindowFocus" id="osNowPlaying">
+			<div class="osWindowTop">now-playing.mp4</div>
+			<video width="1280" height="720" autoplay muted loop id="nowPlayingVideo">
+				<source src="img/ffxiv-tsukuyomi-gameplay.mp4" type="video/mp4">
+				<!-- <source src="img/okkkk.webm" type="video/webm"> -->
+			</video>
+		</div>
+
+		<div class="osWindow" id="osMonthlyMain">
+			<div class="osWindowTop">humble-monthly.png</div>
+			<img src="img/humble-monthly.png" alt="Humble Monthly promo artwork" width="600" class="osPNG">
+		</div>
+
+		<div class="osWindow" id="osVGBCMain">
+			<div class="osWindowTop">book-club.png</div>
+			<img src="img/vgbc-artwork.png" alt="Video Game Book Club artwork" width="300" class="osPNG">
+		</div>
+	</div>
+</body>
+
+</html>

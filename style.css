@@ -60,6 +60,16 @@ body
 	background-repeat: no-repeat;
 	margin-right: 20px;
 }
+.topMixerLogo
+{
+	height: 60px;
+	width:60px;
+	background:#03214f;
+	background-image: url("img/mixer-logo.png");
+	background-position:center;
+	background-repeat: no-repeat;
+	margin-right: 20px;
+}
 .socialMediaTop
 {
 	margin:0 5px;
