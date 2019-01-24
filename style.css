@@ -170,6 +170,42 @@ body
 	animation-delay: 1s;
 	animation-fill-mode: backwards;
 }
+.osAlertBox
+{
+	margin-top:10px;
+	display: inline-block;
+	font-family: Lato, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	text-align: center;
+	background: #ebf1f5;
+	border: 1px solid #ebf1f5;
+	border-top: 0px solid #ebf1f5;
+
+	animation-name:scaleIn;
+	animation-duration:0.5s;
+	animation-delay: 1s;
+	animation-fill-mode: backwards;
+
+	box-shadow: 0px 5px 5px #00000088;
+}
+.osAlertWindowTop
+{
+
+	font-size: 9px;
+	font-style: italic;
+	font-weight: bolder;
+	height: 16px;
+	line-height: 16px;
+}
+.osAlertUsername
+{
+	padding: 20px;
+	color: #ebf1f5;
+	font-size: 36px;
+	font-weight: bold;
+	background-image: url("img/funny.gif");
+	background-size: cover;
+	background-position: center;
+}
 
 @keyframes fadeIn
 {
