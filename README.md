@@ -11,3 +11,4 @@ Breakscreen design for aznmike123
 - New Tip - [Giphy](https://giphy.com/gifs/mlb-got-souza-53KHzYCisdvwI)
 - New Cheer - [Giphy](https://giphy.com/gifs/maury-the-maury-show-l3V0wkQ2KKcAeW8Cs)
 - New Host - [Giphy](https://giphy.com/gifs/pokemon-pokmon-gif-EktbegF3J8QIo)
+- New Raid - [Giphy](https://giphy.com/gifs/braveheart-cIlRzUYVUeNGw)
