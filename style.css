@@ -205,6 +205,7 @@ body
 	background-image: url("img/funny.gif");
 	background-size: cover;
 	background-position: center;
+	text-shadow: 0px 5px 5px #00000088;
 }
 
 @keyframes fadeIn
