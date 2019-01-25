@@ -8,3 +8,4 @@ Breakscreen design for aznmike123
 ### Alert gifs
 - New Follower - [Giphy](https://giphy.com/gifs/CIwiznYyHMLZe)
 - New Subscriber - [Giphy](https://giphy.com/gifs/wreck-it-ralph-690zQEsZLTmFy)
+- New Tip - [Giphy](https://giphy.com/gifs/mlb-got-souza-53KHzYCisdvwI)
