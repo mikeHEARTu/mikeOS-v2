@@ -6,4 +6,5 @@ Breakscreen design for aznmike123
 - Main Background -[Anders Jildén](https://unsplash.com/photos/uwbajDCODj4)
 
 ### Alert gifs
-- New Subscriber - [Giphy](https://giphy.com/gifs/wreck-it-ralph-690zQEsZLTmFy) - [Source](https://movieadayeveryday.wordpress.com/tag/skylar-astin/)
+- New Follower - [Giphy](https://giphy.com/gifs/CIwiznYyHMLZe)
+- New Subscriber - [Giphy](https://giphy.com/gifs/wreck-it-ralph-690zQEsZLTmFy)
