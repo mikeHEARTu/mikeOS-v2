@@ -9,3 +9,4 @@ Breakscreen design for aznmike123
 - New Follower - [Giphy](https://giphy.com/gifs/CIwiznYyHMLZe)
 - New Subscriber - [Giphy](https://giphy.com/gifs/wreck-it-ralph-690zQEsZLTmFy)
 - New Tip - [Giphy](https://giphy.com/gifs/mlb-got-souza-53KHzYCisdvwI)
+- New Cheer - [Giphy](https://giphy.com/gifs/maury-the-maury-show-l3V0wkQ2KKcAeW8Cs)
