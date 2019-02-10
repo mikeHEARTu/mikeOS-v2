@@ -312,11 +312,11 @@ body
 .osWebcamTop
 {
 	background: #ebf1f5;
-	font-size: 7vh;
+	font-size: 5vh;
 	font-style: italic;
 	font-weight: bolder;
-	height: 10vh;
-	line-height: 10vh;
+	height: 9vh;
+	line-height: 9vh;
 }
 .osWebcamContent
 {
