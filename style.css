@@ -296,7 +296,7 @@ body
 	font-family: Lato, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	text-align: center;
 	background: rgba(0, 0, 0, 0);
-	border: 1px solid #ebf1f5;
+	border: 1vh solid #ebf1f5;
 	border-top: 0px solid #ebf1f5;
 
 	animation-name:scaleIn;
@@ -317,11 +317,11 @@ body
 .osWebcamTop
 {
 	background: #ebf1f5;
-	font-size: 9px;
+	font-size: 2vh;
 	font-style: italic;
 	font-weight: bolder;
-	height: 16px;
-	line-height: 16px;
+	height: 3vh;
+	line-height: 3vh;
 }
 .osWebcamContent
 {
