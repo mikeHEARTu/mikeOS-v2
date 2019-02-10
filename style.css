@@ -220,7 +220,7 @@ body
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-	background-image: url("img/anders-jilden-295809-unsplash.jpg");
+	/* background-image: url("img/anders-jilden-295809-unsplash.jpg"); */
 	background-size: cover;
 }
 .osLowerThird
