@@ -208,6 +208,70 @@ body
 	text-shadow: 0px 5px 5px #00000088;
 }
 
+#osLowerThirdCanvas
+{
+	position: absolute;
+	width: 100vw;
+	height:100vh;
+	top: 0;
+	left: 0;
+	overflow:hidden;
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	background-image: url("img/anders-jilden-295809-unsplash.jpg");
+	background-size: cover;
+}
+.osLowerThird
+{
+	width:90vw;
+	height: 90vh;
+
+	display: inline-block;
+	font-family: Lato, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	text-align: center;
+	background: #ebf1f5;
+	border: 1px solid #ebf1f5;
+	border-top: 0px solid #ebf1f5;
+
+	animation-name:scaleIn;
+	animation-duration:0.5s;
+	animation-delay: 0.5s;
+	animation-fill-mode: backwards;
+
+	box-shadow: 0px 2vh 2vh #00000088;
+
+	overflow: hidden;
+	background-image: url("img/lower-third.jpg");
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-content: center;
+
+}
+.osLowerThirdTop
+{
+	background: #ebf1f5;
+	font-size: 9px;
+	font-style: italic;
+	font-weight: bolder;
+	height: 16px;
+	line-height: 16px;
+}
+.osLowerThirdText
+{
+	height: fit-content;
+	color: #ebf1f5;
+	font-size: 5vw;
+	font-weight: bold;
+	
+	text-shadow: 0px 1vh 1vh #00000088;
+
+}
+
 @keyframes fadeIn
 {
     from
