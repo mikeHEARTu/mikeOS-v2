@@ -320,13 +320,10 @@ body
 }
 .osWebcamContent
 {
-
 	color: #ebf1f5;
 	font-size: 5vw;
 	font-weight: bold;
-	
 	text-shadow: 0px 1vh 1vh #00000033;
-
 }
 
 .osWebcamBG
@@ -351,6 +348,48 @@ body
 	justify-content: space-between;
 	align-content: center;
 
+}
+
+#preshowCanvas
+{
+	position: absolute;
+	left:0;
+	top:0;
+	width: 100%;
+	height: 100%;
+}
+.preshowContainer
+{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content:center;
+}
+
+.preshowText
+{
+	color: #ebf1f5;
+	font-size: 6vw;
+	font-weight: bold;
+	text-shadow: 0px 0.75vh 1vh #00000088;
+
+	animation-name:preshowIn;
+	animation-duration:0.5s;
+	animation-delay: 0.5s;
+	animation-fill-mode: backwards;
+}
+#preshowVideo
+{
+	display: block;
+	position: absolute;
+	top:0;
+	left:0;
+	z-index: -100;
+	width:100%;
+	height:100%;
+	object-fit: cover;
 }
 
 @keyframes fadeIn
@@ -386,5 +425,19 @@ body
 	to
 	{
 		filter:opacity(1);
+	}
+}
+@keyframes preshowIn
+{
+    from
+	{
+		transform: scale(0.95, 0.95);
+		filter:opacity(0);
+		text-shadow: 0px 0vh 0vh #00000000;
+	}
+	to
+	{
+		filter:opacity(1);
+		text-shadow: 0px 0.75vh 1vh #00000088;
 	}
 }
