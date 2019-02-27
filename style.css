@@ -173,6 +173,8 @@ body
 .osAlertBox
 {
 	margin-top:10px;
+	margin-left:10px;
+	margin-right:10px;
 	display: inline-block;
 	font-family: Lato, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	text-align: center;
@@ -196,16 +198,31 @@ body
 	height: 16px;
 	line-height: 16px;
 }
-.osAlertUsername
+.osAlertContent
 {
 	padding: 20px;
 	color: #ebf1f5;
-	font-size: 36px;
-	font-weight: bold;
 	background-image: url("img/funny.gif");
 	background-size: cover;
 	background-position: center;
+}
+.osAlertUsername
+{
+	font-size: 36px;
+	font-weight: bold;	
 	text-shadow: 0px 5px 5px #00000088;
+}
+.osAlertText
+{
+	margin-top:0.5ch;
+	font-size: 12px;
+	font-weight: bolder;
+	font-style:italic;
+	text-shadow: 0px 2px 3px #00000088;
+	max-width: 70ch;
+	white-space: nowrap;
+	overflow:hidden;
+	text-overflow: ellipsis;
 }
 
 #osLowerThirdCanvas
