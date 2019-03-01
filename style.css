@@ -157,20 +157,25 @@ body
 #osGifOffline
 {
 	position: absolute;
-	left:200px;
-	top:250px;
-	z-index: 10000;
-	animation-delay: 1.25s;
+	left:92px;
+	top:322px;
+	z-index:10000;
+	animation-delay: 1.5s;
 	animation-fill-mode: backwards;
 }
-#osMonthlyOffline
+#osHumbleOffline
 {
 	position: absolute;
-	right:125px;
-	top:350px;
-	z-index: 1000;
+	right:119px;
+	top:214px;
+	z-index:1000;
+
 	animation-delay: 1s;
 	animation-fill-mode: backwards;
+}
+.osIframeFix
+{
+	display: block;
 }
 .osAlertBox
 {
