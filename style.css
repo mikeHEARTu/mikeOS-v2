@@ -185,7 +185,7 @@ body
 	display: inline-block;
 	font-family: Lato, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	text-align: center;
-	background: #ebf1f5;
+	/* background: #ebf1f5; */
 	border: 1px solid #ebf1f5;
 	border-top: 0px solid #ebf1f5;
 
@@ -198,7 +198,7 @@ body
 }
 .osAlertWindowTop
 {
-
+	background: #ebf1f5;
 	font-size: 9px;
 	font-style: italic;
 	font-weight: bolder;
@@ -208,10 +208,13 @@ body
 .osAlertContent
 {
 	padding: 20px;
+	padding-top:10px;
 	color: #ebf1f5;
-	background-image: url("img/funny.gif");
+	display: inline-block;
+	background: rgba(0, 0, 0, 0.3);
+	/* background-image: url("img/funny.gif");
 	background-size: cover;
-	background-position: center;
+	background-position: center; */
 }
 .osAlertUsername
 {
