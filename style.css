@@ -199,6 +199,7 @@ body
 .osAlertWindowTop
 {
 	background: #ebf1f5;
+	color:#2c3e50;
 	font-size: 9px;
 	font-style: italic;
 	font-weight: bolder;
@@ -208,10 +209,10 @@ body
 .osAlertContent
 {
 	padding: 20px;
-	padding-top:10px;
+	/* padding-top:10px; */
 	color: #ebf1f5;
-	display: inline-block;
-	background: rgba(0, 0, 0, 0.3);
+	background:#2c3e50;
+	background: rgba(0, 0, 0, 0.5);
 	/* background-image: url("img/funny.gif");
 	background-size: cover;
 	background-position: center; */
