@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato|Comfortaa');
+@import url('https://fonts.googleapis.com/css?family=Lato|Comfortaa|Roboto');
 
 body
 {
@@ -429,6 +429,41 @@ body
 	animation-name:scaleIn;
 	animation-duration:0.5s;
 	animation-delay: 0.5s;
+	animation-fill-mode: backwards;
+}
+.minimalAlert
+{
+	font-family: Roboto;
+
+	display: inline-block;
+	color:#ebf1f5;
+	font-size: 18px;
+	background: #6441A4;
+	background-image: linear-gradient(to right, #1abc9c, #3498db);
+	padding: 10px 20px;
+	line-height: 1em;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right:10px;
+	border-radius: 5px;
+
+	animation-name:scaleIn;
+	animation-duration:0.5s;
+	animation-delay: 0.25s;
+	animation-fill-mode: backwards;
+}
+.minimalAlertTitle
+{
+	animation-name:scaleIn;
+	animation-duration:0.5s;
+	animation-delay: 0.5s;
+	animation-fill-mode: backwards;
+}
+.minimalAlertUser
+{
+	animation-name:scaleIn;
+	animation-duration:0.5s;
+	animation-delay: 0.75s;
 	animation-fill-mode: backwards;
 }
 
